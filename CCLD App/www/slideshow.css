@@ -1,0 +1,35 @@
+body { background: #333 }
+
+.accordion {
+	width: 640px; height: 212px;
+	overflow: hidden;
+}
+.accordion ul { width: 200% }
+
+.accordion li {
+	position: relative;
+	display: block;
+	width: 100px;
+	float: left;
+  	box-shadow: 0 0 30px 8px #222;
+	transition: all 0.4s ease .300ms;
+}
+
+.accordion ul:hover li {width: 40px }
+.accordion ul li:hover {width: 288px }
+
+.caption {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+  	bottom: 0;
+	width: 640px;
+}
+
+.caption a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+  font: normal 12px 'Lato', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+	padding: 15px;
+}
