@@ -1,0 +1,52 @@
+/* Purple Color Scheme */
+a, a:visited { color: #5b00f8; }
+
+a:hover { color: #cd00ff; }
+
+input[type="submit"], .button { 
+	background: #6d1dbe url(../images/color-purple/sidebar-count.jpg) repeat-x top;
+	border: 1px solid #661bb9; 
+	text-shadow: 0 -1px 0 #491485; }
+	
+h2 { color: #491485; }
+
+header li.home.active a { 
+	background: url(../images/color-purple/icon-home-active.png) no-repeat;
+	background-position: 15px 12px; }
+						
+header li.tweets.active a { 
+	background: url(../images/color-purple/icon-bird-active.png) no-repeat;
+	background-position: 12px 12px; }
+						
+header li.contact.active a { 
+	background: url(../images/color-purple/icon-contact-active.png) no-repeat;
+	background-position: 14px 12px; }
+
+aside section { background: url(../images/color-purple/sidebar-seperator.jpg) no-repeat top right; }
+
+aside li.active a { color: #782afe; }
+
+aside li span, aside li a:hover span {
+	background: #6c1dbe url(../images/color-purple/sidebar-count.jpg) repeat-x top; 
+	text-shadow: 0 -1px 1px #34008d; }
+
+/* High Resolution Retina Images for iPhone 4 / 4s */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+						
+header li.home.active a { 
+	background: url(../images/color-purple/icon-home-active-2x.png) no-repeat;
+	background-position: 15px 12px; }
+						
+header li.tweets.active a { 
+	background: url(../images/color-purple/icon-bird-active-2x.png) no-repeat;
+	background-position: 12px 12px; }
+																
+header li.contact.active a { 
+	background: url(../images/color-purple/icon-contact-active-2x.png) no-repeat;
+	background-position: 14px 12px; }
+
+header li.home a, header li.home.active a, header li.contact a, header li.contact.active a { -webkit-background-size: 12px 13px; }
+
+header li.tweets a, header li.tweets.active a { -webkit-background-size: 16px 13px; }
+
+}
